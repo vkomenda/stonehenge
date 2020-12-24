@@ -1,0 +1,10 @@
+[package]
+name = "stonehenge"
+version = "0.1.0"
+authors = ["Vladimir Komendantskiy <komendantsky@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+nalgebra = "0.23"
+rapier3d = { git = "https://github.com/dimforge/rapier", tag = "v0.4.2", features = [ "simd-nightly", "parallel" ] }
+rapier_testbed3d = { git = "https://github.com/dimforge/rapier", tag = "v0.4.2", features = [ "parallel" ] }
